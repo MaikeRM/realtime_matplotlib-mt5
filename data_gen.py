@@ -4,10 +4,11 @@ import time
 import MetaTrader5 as mt5
 
 tick = mt5.symbol_info_tick('PETR4')
+tick2 = mt5.symbol_info_tick('PETR4F')
 
 x_value = 0
-bid = 0
-ask = 0
+acao = 0
+frac = 0
 
 fieldnames = ["x_value", "bid", "ask"]
 
